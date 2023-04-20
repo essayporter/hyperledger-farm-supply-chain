@@ -1,0 +1,41 @@
+USER STORIES:
+1.	As a farmer or producer, I want to be able to add a new farm product to the ledger with all the necessary details, so that I can track its authenticity and ensure its quality.
+2.	As a farmer or producer, I want to be able to transfer my farm products to the distributor, so that they can distribute it to retailers and end-users.
+3.	As a distributor, I want to be able to receive farm products from the producer and transfer them to retailers, so that they can reach the end-users.
+4.	As a retailer, I want to be able to receive farm products from the distributor and sell them to end-users, so that I can ensure their quality and authenticity.
+5.	As an end-user or consumer, I want to be able to authenticate the farm product that I am buying, so that I can ensure its quality and safety.
+6.	As a system administrator, I want to be able to view the supply chain details of each farm product, so that I can ensure its authenticity and traceability.
+
+Sprint 1:
+User story 1: As a farmer or producer, I want to be able to add a new farm product to the ledger with all the necessary details, so that I can track its authenticity and ensure its quality.
+Deliverables:
+•	Set up the development environment (IDE, blockchain network, etc.)
+•	Create a smart contract with a function to add a new farm product to the ledger
+•	Implement the function to add a new farm product to the ledger, with all the necessary details
+•	Write unit tests to ensure the function works as expected
+
+Sprint 2:
+User story 2: As a farmer or producer, I want to be able to transfer my farm products to the distributor, so that they can distribute it to retailers and end-users.
+User story 3: As a distributor, I want to be able to receive farm products from the producer and transfer them to retailers, so that they can reach the end-users.
+Deliverables:
+•	Implement a function to transfer farm products from the producer to the distributor
+•	Implement a function to transfer farm products from the distributor to the retailer
+•	Add the necessary checks to ensure that the asset is present in the ledger before transferring it
+•	Write unit tests to ensure the functions work as expected
+
+Sprint 3:
+User story 4: As a retailer, I want to be able to receive farm products from the distributor and sell them to end-users, so that I can ensure their quality and authenticity.
+User story 5: As an end-user or consumer, I want to be able to authenticate the farm product that I am buying, so that I can ensure its quality and safety.
+Deliverables:
+•	Implement a function to authenticate farm products for the end-users
+•	Add the necessary checks to ensure that the asset is present in the ledger before authenticating it
+•	Implement a function to allow retailers to receive farm products from the distributor
+•	Write unit tests to ensure the functions work as expected
+
+Sprint 4:
+User story 6: As a system administrator, I want to be able to view the supply chain details of each farm product, so that I can ensure its authenticity and traceability.
+Deliverables:
+•	Implement a function to view the supply chain details of each farm product
+•	Ensure that the function can be accessed only by the system administrator
+•	Write unit tests to ensure the function works as expected
+•	Deploy the application on the blockchain network and ensure it is working properly
